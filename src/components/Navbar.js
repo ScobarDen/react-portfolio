@@ -8,30 +8,30 @@ import {info} from "../info/Info";
 const links = [
     {
         name: 'Home',
-        to: '/',
+        to: '/react-portfolio',
         active: 'home'
     },
     {
         name: 'About Me',
-        to: '/about',
+        to: '/react-portfolio/about',
         active: 'about'
     },
     {
         name: info.initials,
         type: 'initials',
-        to: '/',
+        to: '/react-portfolio',
         active: 'home'
     },
     {
         name: 'Portfolio',
-        to: '/portfolio',
+        to: '/react-portfolio/portfolio',
         active: 'portfolio'
     }
 ]
 
 export default function Navbar({darkMode, handleClick}) {
     const location = useLocation()
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const [active, setActive] = useState(location.pathname === '/react-portfolio' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
     return (
         <Box component={'nav'} width={'100%'}>
