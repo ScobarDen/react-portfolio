@@ -37,6 +37,11 @@ export const info = {
             label: 'telegram'
         },
         {
+            link: "https://vk.com/denis_guschin",
+            icon: 'fa fa-vk',
+            label: 'vk'
+        },
+        {
             link: "https://instagram.com/denzacuduro",
             icon: 'fa fa-instagram',
             label: 'instagram'
@@ -70,16 +75,16 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'video games',
-            emoji: '🎮'
+            label: 'psychology',
+            emoji: '🧠'
         },
         {
             label: 'movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'family',
+            emoji: '👪'
         }
     ],
     portfolio: [
