@@ -53,7 +53,7 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/денис-гущин-729a2824b",
+            link: "https://www.linkedin.com/in/denis-guschin-scobar/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
