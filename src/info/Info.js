@@ -1,6 +1,8 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
+import mock3 from "../img/mock3.png"
+
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -100,6 +102,12 @@ export const info = {
             live: "https://scobarden.github.io/responsive-website-beats/",
             source: "https://github.com/ScobarDen/responsive-website-beats",
             image: mock2
+        },
+        {
+            title: "Shorten links",
+            live: "https://github.com/ScobarDen/mern-app",
+            source: "https://github.com/ScobarDen/mern-app",
+            image: mock3
         },
     ]
 }
