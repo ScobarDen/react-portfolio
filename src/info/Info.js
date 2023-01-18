@@ -3,6 +3,7 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
+import mock5 from "../img/mock5.png"
 
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -92,6 +93,12 @@ export const info = {
         }
     ],
     portfolio: [
+        {
+            title: "React blog",
+            live: "https://mern-blog-frontend-g4h3.onrender.com/",
+            source: "https://github.com/ScobarDen/blog-mern-frontend",
+            image: mock5
+        },
         {
             title: "React chess",
             live: "https://scobarden.github.io/react-chess/",
