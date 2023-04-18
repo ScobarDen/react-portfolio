@@ -95,7 +95,7 @@ export const info = {
     portfolio: [
         {
             title: "React blog",
-            live: "https://mern-blog-frontend-g4h3.onrender.com/",
+            live: "https://scobars-blog.onrender.com/",
             source: "https://github.com/ScobarDen/blog-mern-frontend",
             image: mock5
         },
@@ -112,9 +112,9 @@ export const info = {
             image: mock2
         },
         {
-            title: "Shorten links",
-            live: "https://github.com/ScobarDen/mern-app",
-            source: "https://github.com/ScobarDen/mern-app",
+            title: "Fast Company",
+            live: "https://rs-fast-company.onrender.com/",
+            source: "https://rs-fast-company.onrender.com/",
             image: mock3
         },
         {
